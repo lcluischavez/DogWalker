@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace DogWalkerAPI.Models
+{
+    // C# representation of the walks table
+    public class Walks
+    {
+        public int Id { get; set; }
+        public DateTime Date { get; set; }
+        public string Address { get; set; }
+        public int Duration { get; set; }
+        public int WalkerId { get; set; }
+        public int DogId { get; set; }
+    }
+
+}
